@@ -118,5 +118,12 @@ router.put('/:id', (req, res) => {
         res.json({ message: "Contact updated successfully" });
     });
 });
+// GET ALL CUSTOMERS
+router.get('/', (req, res) => {
+    db.query("SELECT * FROM customers ORDER BY name ASC", (err, results) => {
+        if (err) return res.status(500).json({ error: err.message });
+        res.json(results);
+    });
+});
 
 module.exports = router;

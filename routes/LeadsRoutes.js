@@ -209,5 +209,15 @@ router.post('/:id/attachments', (req, res) => {
         res.json({ id: result.insertId, message: "Attachment record saved" });
     });
 });
+// ============================
+// GET ALL LEADS (For Dropdowns)
+// ============================
+router.get('/', (req, res) => {
+    // This fetches all leads so the dropdown is not empty
+    db.query("SELECT * FROM leads ORDER BY name ASC", (err, results) => {
+        if (err) return res.status(500).json({ error: err.message });
+        res.json(results);
+    });
+});
 
 module.exports = router;

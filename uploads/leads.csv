@@ -1,0 +1,6 @@
+first_name,last_name,type,company,email,phone,website,position,address,city,state,country,zipcode,status,source,industry,assigned_to,tags,lead_value,currency,visibility,contacted_today,description
+John,Doe,Person,Tech Solutions,john.doe@example.com,+123456789,https://techsolutions.com,Software Engineer,123 Main Street,New York,NY,USA,10001,New,Website,Software,1,Important,5000,USD,1,0,Interested in product
+Jane,Smith,Person,Creative Co,jane.smith@example.com,+987654321,https://creativeco.com,Marketing Manager,456 Elm Street,Boston,MA,USA,02101,Contacted,Referral,Marketing,2,High Priority,3000,USD,1,0,Looking for collaboration
+Michael,Brown,Organization,Finance Corp,michael.brown@example.com,+192837465,https://financecorp.com,CEO,789 Pine Street,Chicago,IL,USA,60601,Qualified,Email,Finance,3,Important,10000,USD,1,1,Follow-up required
+Emily,Johnson,Person,Health Inc,emily.johnson@example.com,+5647382910,https://healthinc.com,HR Manager,321 Oak Avenue,San Francisco,CA,USA,94102,New,Website,Healthcare,4,Low Priority,2000,USD,1,0,Interested in demo
+David,Williams,Organization,EduTech,david.williams@example.com,+1122334455,https://edutech.com,CTO,654 Maple Lane,Seattle,WA,USA,98101,Contacted,Referral,Education,5,Medium Priority,8000,USD,1,0,Request for proposal
