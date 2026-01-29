@@ -23,6 +23,7 @@ const creditNoteRoutes = require('./routes/creditNoteRoutes');
 const itemRoutes = require('./routes/itemRoutes');
 const expenseRoutes = require('./routes/ExpenseRoutes');
 const subscriptionRoutes = require('./routes/SubscriptionRoutes');
+const ticketRoutes = require('./routes/TicketRoutes');
 
 // --- USE ROUTES ---
 app.use('/api/contact', contactRoutes);
@@ -36,6 +37,7 @@ app.use('/api/credit_notes', creditNoteRoutes);
 app.use('/api/items', itemRoutes);
 app.use('/api/expenses', expenseRoutes);
 app.use('/api/subscriptions', subscriptionRoutes);
+app.use('/api/tickets', ticketRoutes);
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
